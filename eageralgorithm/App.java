@@ -1,14 +1,9 @@
-package main;
-
-import algorithm.LazyPrimsAlgorithm;
-import graph.Edge;
-import graph.Vertex;
+package eageralgorithm;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class App {
-
     public static void main(String[] args) {
 
         List<Vertex> vertexList = new ArrayList<>();
@@ -62,7 +57,7 @@ public class App {
         vertex6.addEdge(new Edge(vertex6, vertex4, 9));
         vertex6.addEdge(new Edge(vertex6, vertex5, 2));
 
-        LazyPrimsAlgorithm algorithm = new LazyPrimsAlgorithm(vertexList);
+        EagerPrimsAlgorithm algorithm = new EagerPrimsAlgorithm(vertexList);
         algorithm.run(vertex0);
         algorithm.printSolution();
     }

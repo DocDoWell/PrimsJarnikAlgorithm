@@ -1,4 +1,4 @@
-package graph;
+package lazyalgorithm;
 
 public class Edge implements Comparable<Edge> {
 

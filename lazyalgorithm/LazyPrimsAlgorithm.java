@@ -1,7 +1,4 @@
-package algorithm;
-
-import graph.Edge;
-import graph.Vertex;
+package lazyalgorithm;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package graph;
+package lazyalgorithm;
 
 import java.util.ArrayList;
 import java.util.List;
